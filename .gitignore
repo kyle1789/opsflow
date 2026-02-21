@@ -1,0 +1,23 @@
+# Ruby
+.bundle
+log/*
+tmp/*
+storage/*
+coverage
+
+# Rails
+config/master.key
+config/credentials.yml.enc
+
+# DB
+*.sqlite3
+*.sqlite3-journal
+
+# Env
+.env
+
+# Docker
+vendor/bundle
+
+# OS
+.DS_Store
